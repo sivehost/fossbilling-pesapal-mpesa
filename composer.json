@@ -1,0 +1,21 @@
+{
+    "name": "sivehost/fossbilling-pesapal-mpesa",
+    "description": "Pesapal MPESA Payment Gateway Module for FOSSBilling",
+    "type": "library",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Sive.Host",
+            "email": "randd@sive.host"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FOSSBilling\\Payment\\PesapalMpesa\\": "src/"
+        }
+    }
+}
